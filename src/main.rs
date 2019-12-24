@@ -86,7 +86,7 @@ fn main() -> Result<(), String> {
                                     );
                                 }
                             }
-                            Action::Talk(_key) => todo!(),
+                            Action::Talk(_key) => unimplemented!(),
                         }
                     }
                 }
@@ -128,7 +128,7 @@ fn main() -> Result<(), String> {
                             }
                         }
                         Action::LowThrow(_) => (),
-                        Action::Talk(_key) => todo!(),
+                        Action::Talk(_key) => unimplemented!(),
                     }
                 }
 
